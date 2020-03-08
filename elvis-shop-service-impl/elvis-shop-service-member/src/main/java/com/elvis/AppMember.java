@@ -1,4 +1,4 @@
-package com.elvis.member;
+package com.elvis;
 
 import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import com.spring4all.swagger.EnableSwagger2Doc;

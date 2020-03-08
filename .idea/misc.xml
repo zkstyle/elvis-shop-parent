@@ -6,9 +6,14 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/elvis-shop-common/pom.xml" />
-        <option value="$PROJECT_DIR$/elvis-shop-api-entity/elvis-shop-api-weixin-entity/pom.xml" />
-        <option value="$PROJECT_DIR$/elvis-shop-api-entity/elvis-shop-api-member-entity/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/elvis-shop-api-entity/elvis-shop-api-member-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/elvis-shop-api-entity/elvis-shop-api-weixin-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/elvis-shop-api-entity/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

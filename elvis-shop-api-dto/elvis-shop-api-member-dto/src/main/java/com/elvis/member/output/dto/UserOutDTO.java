@@ -1,4 +1,4 @@
-package com.elvis.member.entity;
+package com.elvis.member.output.dto;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -14,8 +14,8 @@ import java.util.Date;
  * @Description:
  */
 @Data
-@ApiModel(value = "用户信息")
-public class UserEntity {
+@ApiModel(value = "用户返回参数")
+public class UserOutDTO {
 
     /**
      * userid　

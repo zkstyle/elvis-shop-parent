@@ -1,10 +1,9 @@
 package com.elvis.member.mapper;
 
+import com.elvis.member.mapper.entity.UserDo;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.data.repository.query.Param;
-
-import com.elvis.member.entity.UserEntity;
 
 /**
  * @BelongsProject: elvis-shop-parent
@@ -17,8 +16,8 @@ import com.elvis.member.entity.UserEntity;
 public interface UserMapper {
 
 	@Insert("INSERT INTO `elvis_user` VALUES (null,#{mobile}, #{email}, #{password}, #{userName}, null, null, null, '1', null, null, null);")
-	int register(UserEntity userEntity);
+	int register(UserDo userDo);
 
 	@Select("SELECT * FROM elvis_user WHERE MOBILE=#{mobile};")
-	UserEntity existMobile(@Param("mobile") String mobile);
+	UserDo existMobile(@Param("mobile") String mobile);
 }

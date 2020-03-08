@@ -17,7 +17,12 @@
     <dependencies>
         <dependency>
             <groupId>cn.vazh</groupId>
-            <artifactId>elvis-shop-service-api-weixin</artifactId>
+            <artifactId>elvis-shop-api-weixin-dto</artifactId>
+            <version>1.0.0-RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.vazh</groupId>
+            <artifactId>elvis-shop-api-member-dto</artifactId>
             <version>1.0.0-RELEASE</version>
         </dependency>
 

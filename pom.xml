@@ -15,6 +15,7 @@
         <module>elvis-shop-service-impl</module>
         <module>elvis-shop-common</module>
         <module>elvis-shop-portal</module>
+        <module>elvis-shop-api-dto</module>
     </modules>
 
     <parent>

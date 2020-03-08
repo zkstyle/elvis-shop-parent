@@ -2,8 +2,8 @@ package com.elvis.weixin.mp.handler;
 
 import com.elvis.base.BaseResponse;
 import com.elvis.core.utils.RedisUtil;
+import com.elvis.member.output.dto.UserOutDTO;
 import com.elvis.weixin.feign.MemberServiceFeign;
-import com.elvis.member.entity.UserEntity;
 import me.chanjar.weixin.common.api.WxConsts.XmlMsgType;
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.session.WxSessionManager;
@@ -61,7 +61,7 @@ public class MsgHandler extends AbstractHandler {
 		// 2.使用正则表达式验证消息是否为手机号码格式
 		if (RegexUtils.checkMobile(fromContent)) {
 			//1.根据手机号码查询用户是否已经户注册
-			BaseResponse<UserEntity> resultUserInfo = memberServiceFeign.existMobile(fromContent);
+			BaseResponse<UserOutDTO> resultUserInfo = memberServiceFeign.existMobile(fromContent);
 			if (resultUserInfo.getCode().equals(Constants.HTTP_RES_CODE_200)){
 				return new TextBuilder().build("该手机号码"+fromContent+"已经存在！",wxMessage,weixinService);
 			}

@@ -3,48 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>elvis-shop-parent</artifactId>
+        <artifactId>elvis-shop-api-dto</artifactId>
         <groupId>cn.vazh</groupId>
         <version>1.0.0-RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>elvis-shop-service-api</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>elvis-shop-service-api-weixin</module>
-        <module>elvis-shop-service-api-member</module>
-    </modules>
-
-    <dependencies>
-        <!--引入核心工具包-->
-        <dependency>
-            <groupId>cn.vazh</groupId>
-            <artifactId>elvis-shop-common-core</artifactId>
-            <version>1.0.0-RELEASE</version>
-        </dependency>
-        <!--引入微信实体类层-->
-        <dependency>
-            <groupId>cn.vazh</groupId>
-            <artifactId>elvis-shop-api-weixin-dto</artifactId>
-            <version>1.0.0-RELEASE</version>
-        </dependency>
-        <!--引入member实体类-->
-        <dependency>
-            <groupId>cn.vazh</groupId>
-            <artifactId>elvis-shop-api-member-dto</artifactId>
-            <version>1.0.0-RELEASE</version>
-        </dependency>
-    </dependencies>
-
-    <repositories>
-        <repository>
-            <!--此名称要和.m2/settings.xml中设置的ID一致 -->
-            <id>elvis-releases</id>
-            <name>elvis</name>
-            <url>http://192.168.43.29:8081/repository/elvis-releases/</url>
-        </repository>
-    </repositories>
+    <artifactId>elvis-shop-api-weixin-dto</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0.0-RELEASE</version>
 
     <distributionManagement>
         <repository>
@@ -79,8 +46,6 @@
             </plugin>
         </plugins>
     </build>
-
-
 
 
 </project>

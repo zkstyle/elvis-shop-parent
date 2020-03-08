@@ -1,4 +1,4 @@
-package com.elvis.member.entity;
+package com.elvis.member.input.dto;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -14,8 +14,8 @@ import java.util.Date;
  * @Description:
  */
 @Data
-@ApiModel(value = "用户信息")
-public class UserEntity {
+@ApiModel(value = "用户请求参数")
+public class UserInpDTO {
 
     /**
      * userid　
@@ -53,22 +53,6 @@ public class UserEntity {
     @ApiModelProperty(value = "用户年龄")
     private Long age;
     /**
-     * 注册时间
-     */
-    @ApiModelProperty(value = "创建时间")
-    private Date createTime;
-    /**
-     * 修改时间
-     *
-     */
-    @ApiModelProperty(value = "修改时间")
-    private Date updateTime;
-    /**
-     * 账号是否可以用 1 正常 0冻结
-     */
-    @ApiModelProperty(value = "账号是否可以用 1 正常 0冻结")
-    private char isAvalible;
-    /**
      * 用户头像
      */
     @ApiModelProperty(value = " 用户头像")
@@ -83,8 +67,6 @@ public class UserEntity {
      */
     @ApiModelProperty(value = "用户关联 微信 开放ID")
     private Date wxOpenId;
-
-    //private Boolean isVip;
 
     /**
      * 目前存在的问题　接口层传递实体类->  数据库传递实体类都是相同的
