@@ -12,7 +12,6 @@ import com.elvis.member.mapper.UserMapper;
 import com.elvis.member.MemberRegisterService;
 import com.elvis.member.mapper.entity.UserDo;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -35,10 +34,10 @@ public class MemberRegisterServiceImpl extends BaseApiService<JSONObject> implem
     @Transactional //开启事务
     public BaseResponse<JSONObject> register(@RequestBody UserInpDTO userInpDTO, String registCode) {
         // 1.参数验证
-        String userName = userInpDTO.getUserName();
+        /*String userName = userInpDTO.getUserName();
         if (StringUtils.isEmpty(userName)) {
             return setResultError("用户名称不能为空!");
-        }
+        }*/
         String mobile = userInpDTO.getMobile();
         if (StringUtils.isEmpty(mobile)) {
             return setResultError("手机号码不能为空!");

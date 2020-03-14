@@ -1,0 +1,32 @@
+elvis:
+  zuul:
+    swaggerDocument:
+      [
+          {
+              "name": "app-elvis-member",
+              "location": "/app-elvis-member/v2/api-docs",
+              "version": "2.0"
+          },
+          {
+              "name": "app-elvis-weixin",
+              "location": "/app-elvis-weixin/v2/api-docs",
+              "version": "2.0"
+          }
+      ]
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.43.29:8100/eureka
+server:
+  port: 8888
+spring:
+  application:
+    name: app-elvis-zuul
+zuul:
+  routes:
+    api-a:
+      path: /api-weixin/**
+      serviceId: app-elvis-weixin
+    api-b:
+      path: /api-member/**
+      serviceId: app-elvis-member

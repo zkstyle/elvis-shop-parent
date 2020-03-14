@@ -37,6 +37,11 @@ public class UserInpDTO {
      */
     @ApiModelProperty(value = "密码")
     private String password;
+  /*  *//*
+    验证码
+     *//*
+    @ApiModelProperty(value = "验证码")
+    private String registCode;*/
     /**
      * 用户名称
      */

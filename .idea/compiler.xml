@@ -12,7 +12,8 @@
         <module name="elvis-shop-basics-springcloud-eureka" />
         <module name="elvis-shop-basics-springcloud-zuul" />
         <module name="elvis-shop-common-core" />
-        <module name="elvis-shop-portal" />
+        <module name="elvis-shop-common-web-core" />
+        <module name="elvis-shop-portal-web" />
         <module name="elvis-shop-service-api-member" />
         <module name="elvis-shop-service-api-weixin" />
         <module name="elvis-shop-service-member" />
@@ -38,7 +39,9 @@
       <module name="elvis-shop-basics-springcloud-zuul" options="-parameters" />
       <module name="elvis-shop-common" options="-parameters" />
       <module name="elvis-shop-common-core" options="-parameters" />
+      <module name="elvis-shop-common-web-core" options="-parameters" />
       <module name="elvis-shop-portal" options="-parameters" />
+      <module name="elvis-shop-portal-web" options="-parameters" />
       <module name="elvis-shop-service-api" options="-parameters" />
       <module name="elvis-shop-service-api-member" options="-parameters" />
       <module name="elvis-shop-service-api-weixin" options="-parameters" />

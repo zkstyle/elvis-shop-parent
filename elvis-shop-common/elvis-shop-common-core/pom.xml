@@ -21,14 +21,15 @@
         </dependency>
         <dependency>
             <groupId>cn.vazh</groupId>
-            <artifactId>elvis-shop-api-weixin-entity</artifactId>
+            <artifactId>elvis-shop-api-weixin-dto</artifactId>
             <version>1.0.0-RELEASE</version>
         </dependency>
+
     </dependencies>
 
-   <!-- <distributionManagement>
+    <distributionManagement>
         <repository>
-            &lt;!&ndash;此名称要和.m2/settings.xml中设置的ID一致 &ndash;&gt;
+            <!--此名称要和.m2/settings.xml中设置的ID一致 -->
             <id>elvis-releases</id>
             <name>elvis</name>
             <url>http://192.168.43.29:8081/repository/elvis-releases/</url>
@@ -38,13 +39,13 @@
 
     <build>
         <plugins>
-            &lt;!&ndash;发布代码Jar插件 &ndash;&gt;
+            <!--发布代码Jar插件 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>2.7</version>
             </plugin>
-            &lt;!&ndash;发布源码插件 &ndash;&gt;
+            <!--发布源码插件 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -59,5 +60,5 @@
                 </executions>
             </plugin>
         </plugins>
-    </build>-->
+    </build>
 </project>

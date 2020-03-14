@@ -1,7 +1,6 @@
 package com.elvis.member.mapper.entity;
 
 import java.sql.Date;
-
 import lombok.Data;
 /**
  * @BelongsProject: elvis-shop-parent
@@ -45,6 +44,7 @@ public class UserDo {
 	/**
 	 * 注册时间
 	 */
+
 	private Date createTime;
 	/**
 	 * 修改时间

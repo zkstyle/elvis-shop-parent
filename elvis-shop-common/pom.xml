@@ -13,7 +13,23 @@
     <packaging>pom</packaging>
     <modules>
         <module>elvis-shop-common-core</module>
+        <module>elvis-shop-common-web-core</module>
     </modules>
+
+    <dependencies>
+        <!-- mybatis相关依赖 -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <!-- mysql 依赖 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.12</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

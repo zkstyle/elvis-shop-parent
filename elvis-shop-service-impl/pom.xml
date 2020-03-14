@@ -24,6 +24,18 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
+        <!--阿波罗整合-->
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-core</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
         <!-- mybatis相关依赖 -->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
@@ -37,17 +49,6 @@
             <version>8.0.12</version>
         </dependency>
 
-        <!--阿波罗整合-->
-        <dependency>
-            <groupId>com.ctrip.framework.apollo</groupId>
-            <artifactId>apollo-client</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.ctrip.framework.apollo</groupId>
-            <artifactId>apollo-core</artifactId>
-            <version>1.0.0</version>
-        </dependency>
     </dependencies>
 
 </project>

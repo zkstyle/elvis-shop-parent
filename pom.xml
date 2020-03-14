@@ -11,7 +11,6 @@
     <modules>
         <module>elvis-shop-basics</module>
         <module>elvis-shop-service-api</module>
-        <module>elvis-shop-api-entity</module>
         <module>elvis-shop-service-impl</module>
         <module>elvis-shop-common</module>
         <module>elvis-shop-portal</module>
@@ -39,7 +38,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- fastjson -->
+        <!-- fastjson  1.2.30-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>

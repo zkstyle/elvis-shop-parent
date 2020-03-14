@@ -25,17 +25,20 @@
             <groupId>cn.vazh</groupId>
             <version>1.0.0-RELEASE</version>
         </dependency>
+
+
+
     </dependencies>
 
-    <repositories>
+    <!--<repositories>
         <repository>
-            <!--此名称要和.m2/settings.xml中设置的ID一致 -->
+            &lt;!&ndash;此名称要和.m2/settings.xml中设置的ID一致 &ndash;&gt;
             <id>elvis-releases</id>
             <name>elvis</name>
             <url>http://192.168.43.29:8081/repository/elvis-releases/</url>
         </repository>
     </repositories>
-
+-->
 
 
 
