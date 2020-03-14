@@ -1,5 +1,6 @@
 package com.elvis.weixin.mp.controller;
 
+import com.elvis.weixin.mp.utils.JsonUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,10 +28,10 @@ public class WxPortalController {
 
 	@GetMapping(produces = "text/plain;charset=utf-8")
 	public String authGet(@PathVariable String appid,
-			@RequestParam(name = "signature", required = false) String signature,
-			@RequestParam(name = "timestamp", required = false) String timestamp,
-			@RequestParam(name = "nonce", required = false) String nonce,
-			@RequestParam(name = "echostr", required = false) String echostr) {
+						@RequestParam(name = "signature", required = false) String signature,
+						@RequestParam(name = "timestamp", required = false) String timestamp,
+						@RequestParam(name = "nonce", required = false) String nonce,
+						@RequestParam(name = "echostr", required = false) String echostr) {
 
 		this.logger.info("\n接收到来自微信服务器的认证消息：[{}, {}, {}, {}]", signature, timestamp, nonce, echostr);
 		if (StringUtils.isAnyBlank(signature, timestamp, nonce, echostr)) {
@@ -45,9 +46,9 @@ public class WxPortalController {
 		if (wxService.checkSignature(timestamp, nonce, signature)) {
 			return echostr;
 		}
-
 		return "非法请求";
 	}
+
 
 	@PostMapping(produces = "application/xml; charset=UTF-8")
 	public String post(@PathVariable String appid, @RequestBody String requestBody,

@@ -2,8 +2,12 @@
 <div class="layui-fulid">
   <div class="layui-carousel house-carousel" id="house-carousel">
     <div carousel-item>    
-      <div ><a href="http://www.mayikt.com" target="_blank" ><img src="http://static.itmayiedu.com/9894648946.jpg"></a></div>
-      <div><a href="http://www.mayikt.com" target="_blank" ><img src="http://static.itmayiedu.com/498496464165.jpg"></a></div>
+      <div ><a href="http://www.vazh.com" target="_blank" ><img src="../res/static/img/roll01.jpg"></a></div>
+      <div ><a href="http://www.vazh.com" target="_blank" ><img src="../res/static/img/roll02.jpg"></a></div>
+      <div ><a href="http://www.vazh.com" target="_blank" ><img src="../res/static/img/roll03.jpg"></a></div>
+      <div ><a href="http://www.vazh.com" target="_blank" ><img src="../res/static/img/roll04.jpg"></a></div>
+      <div ><a href="http://www.vazh.com" target="_blank" ><img src="../res/static/img/roll05.jpg"></a></div>
+      <div ><a href="http://www.vazh.com" target="_blank" ><img src="../res/static/img/roll06.jpg"></a></div>
     </div>
   </div>
 </div>

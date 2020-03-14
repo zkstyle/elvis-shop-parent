@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>蚂蚁商城-首页</title>
+  <title>珊琴商城-首页</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="../res/layui/css/layui.css">
   <link rel="stylesheet" href="../res/static/css/index.css">
@@ -30,8 +30,8 @@
       </span>
     </div> 
     <div class="house-banner layui-form">
-      <a class="banner" href="index.html">
-        <img src="http://static.itmayiedu.com/12312312312312da.png" alt="家居商城">
+      <a class="banner" href="index">
+        <img src="../../res/static/img/logo.png" alt="琴珊商城">
       </a>
       <div class="layui-input-inline">
         <input type="text" placeholder="搜索好物" class="layui-input"><i class="layui-icon layui-icon-house-find"></i>

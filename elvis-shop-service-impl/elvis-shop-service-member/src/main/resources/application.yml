@@ -4,6 +4,8 @@ server:
 ###服务名称(服务注册到eureka名称)
 eureka:
   client:
+    fetch-registry: true
+    register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8100/eureka
 feign:

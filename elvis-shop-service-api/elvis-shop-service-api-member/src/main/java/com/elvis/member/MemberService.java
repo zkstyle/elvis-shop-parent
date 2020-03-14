@@ -37,7 +37,7 @@ public interface MemberService {
      * @param token
      * @return
      */
-    @GetMapping("/app-elvis-member/getUserInfo")
+    @GetMapping("/getUserInfo")
     @ApiOperation(value = "/getUserInfo")
     BaseResponse<UserOutDTO> getInfo(@RequestParam("token") String token);
 }

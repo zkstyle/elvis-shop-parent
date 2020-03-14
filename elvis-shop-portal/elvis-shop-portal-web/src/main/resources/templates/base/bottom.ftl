@@ -10,13 +10,13 @@
 		</div>
 		<div class="about">
 			<span class="layui-breadcrumb" lay-separator="|"> <a
-				href="http://www.mayikt.com" target="_blank">关于我们</a> <a
-				href="http://www.mayikt.com" target="_blank">帮助中心</a> <a
-				href="http://www.mayikt.com" target="_blank">售后服务</a> <a
-				href="http://www.mayikt.com" target="_blank">配送服务</a> <a
-				href="http://www.mayikt.com" target="_blank">关于货源</a>
+				href="http://www.vazh.com" target="_blank">关于我们</a> <a
+				href="http://www.vazh.com" target="_blank">帮助中心</a> <a
+				href="http://www.vazh.com" target="_blank">售后服务</a> <a
+				href="http://www.vazh.com" target="_blank">配送服务</a> <a
+				href="http://www.vazh.com" target="_blank">关于货源</a>
 			</span>
-			<p>上海每特教育科技有限公司版权所有- &copy; 2018-2019</p>
+			<p>安徽家里蹲公司版权所有- &copy; 2018-2020</p>
 		</div>
 	</div>
 </div>

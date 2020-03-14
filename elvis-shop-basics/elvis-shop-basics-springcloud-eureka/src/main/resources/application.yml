@@ -13,3 +13,9 @@ eureka:
     register-with-eureka: false
 ###因为自己是为注册中心，不需要检索服务
     fetch-registry: false
+
+
+ribbon:
+  eureka:
+    enabled: true
+

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>蚂蚁商城-登录</title>
+<title>琴珊商城-登录</title>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" href="../res/layui/css/layui.css">
@@ -26,8 +26,8 @@
 				</span>
 			</div>
 			<div class="house-banner layui-form">
-				<a class="banner" href="index.html"> <img
-					src="http://static.itmayiedu.com/12312312312312da.png" alt="家居商城">
+				<a class="banner" href="index">
+					<img src="../../res/static/img/logo.png" alt="琴珊商城">
 				</a>
 				<div class="layui-input-inline">
 					<input type="text" placeholder="搜索好物" class="layui-input"><i
@@ -38,7 +38,7 @@
 					class="layui-badge">1</span></a>
 			</div>
 			<ul class="layui-nav close">
-				<li class="layui-nav-item layui-this"><a href="index.html">首页</a></li>
+				<li class="layui-nav-item layui-this"><a href="index">首页</a></li>
 				<li class="layui-nav-item"><a href="list.html">居家用品</a></li>
 				<li class="layui-nav-item"><a href="list.html">小家电</a></li>
 				<li class="layui-nav-item"><a href="list.html">洗护</a></li>

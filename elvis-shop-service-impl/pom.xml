@@ -25,7 +25,7 @@
         </dependency>
 
         <!--阿波罗整合-->
-        <dependency>
+        <!--<dependency>
             <groupId>com.ctrip.framework.apollo</groupId>
             <artifactId>apollo-client</artifactId>
             <version>1.0.0</version>
@@ -34,7 +34,7 @@
             <groupId>com.ctrip.framework.apollo</groupId>
             <artifactId>apollo-core</artifactId>
             <version>1.0.0</version>
-        </dependency>
+        </dependency>-->
 
         <!-- mybatis相关依赖 -->
         <dependency>

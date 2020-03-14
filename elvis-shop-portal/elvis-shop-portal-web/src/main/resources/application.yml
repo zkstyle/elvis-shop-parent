@@ -12,7 +12,7 @@ spring:
         template-loader-path:
         - classpath:/templates
     application:
-        name: app-elvis-member
+        name: app-elvis-portal-web
 ###服务注册到eureka地址
 eureka:
   client:

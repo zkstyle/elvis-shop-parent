@@ -9,4 +9,5 @@ import org.springframework.cloud.openfeign.FeignClient;
 //@Headers({ "Content-Type: application/json", "Accept: application/json" })
 public interface MemberLoginServiceFeign extends MemberLoginService {
 
+
 }
