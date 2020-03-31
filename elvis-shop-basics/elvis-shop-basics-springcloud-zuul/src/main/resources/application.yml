@@ -13,6 +13,8 @@ elvis:
               "version": "2.0"
           }
       ]
+    swagger:
+      document: 珊珊至上服务幼儿园
 eureka:
   client:
     service-url:
@@ -22,6 +24,24 @@ server:
 spring:
   application:
     name: app-elvis-zuul
+  redis:
+    host: 192.168.43.29
+    port: 6379
+    password: zk201314
+    jedis:
+      pool:
+        max-idle: 100
+        min-idle: 1
+        max-active: 1000
+        max-wait: -1ms
+    ###数据库相关连接
+    datasource:
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/elvis_gateway?useUnicode=true&characterEncoding=UTF-8
+
+### 配置网关反向代理
 zuul:
   routes:
     api-a:
@@ -30,3 +50,14 @@ zuul:
     api-b:
       path: /api-member/**
       serviceId: app-elvis-member
+    api-c:
+      ### 以 /api-member/访问转发到订单服务
+      path: /api-pay/**
+      serviceId: app-elvis-pay
+    api-d:
+      ### 以 /api-pay/访问转发到订单服务
+      path: /api-spike/**
+      serviceId: app-elvis-spike
+
+
+

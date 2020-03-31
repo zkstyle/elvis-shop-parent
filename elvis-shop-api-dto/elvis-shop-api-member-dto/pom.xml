@@ -18,7 +18,7 @@
         <repository>
             <!--此名称要和.m2/settings.xml中设置的ID一致 -->
             <id>elvis-releases</id>
-            <name>elvis</name>
+            <name>admin</name>
             <url>http://192.168.43.29:8081/repository/elvis-releases/</url>
         </repository>
     </distributionManagement>

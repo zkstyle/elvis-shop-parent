@@ -26,10 +26,11 @@
             <version>1.0.0-RELEASE</version>
         </dependency>
 
+        <!--3.3.0-->
         <dependency>
             <groupId>com.github.binarywang</groupId>
             <artifactId>weixin-java-mp</artifactId>
-            <version>3.3.0</version>
+            <version>3.7.0</version>
             <exclusions>
                 <exclusion>
                     <artifactId>xstream</artifactId>

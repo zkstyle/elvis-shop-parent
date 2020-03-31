@@ -15,6 +15,11 @@
     <modules>
         <module>elvis-shop-service-weixin</module>
         <module>elvis-shop-service-member</module>
+        <module>elvis-shop-service-goods</module>
+        <module>elvis-shop-service-pay</module>
+        <module>elvis-shop-service-integral</module>
+        <module>elvis-shop-service-auth</module>
+        <module>elvis-shop-service-spike</module>
     </modules>
 
     <dependencies>

@@ -35,6 +35,24 @@
             <artifactId>apollo-core</artifactId>
             <version>1.0.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>cn.vazh</groupId>
+            <artifactId>elvis-shop-common-core</artifactId>
+            <version>1.0.0-RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.vazh</groupId>
+            <artifactId>elvis-shop-service-api-auth</artifactId>
+            <version>1.0.0-RELEASE</version>
+        </dependency>
+
+        <!-- springcloud feign组件 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
     </dependencies>
 
 

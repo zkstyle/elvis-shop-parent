@@ -14,23 +14,26 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemarker</artifactId>
+            <groupId>com.tengxun</groupId>
+            <artifactId>sdk4j</artifactId>
+            <version>1.0</version>
         </dependency>
 
         <dependency>
             <groupId>cn.vazh</groupId>
-            <artifactId>elvis-shop-common-web-core</artifactId>
+            <artifactId>elvis-shop-basics-xxl-sso-server</artifactId>
             <version>1.0.0-RELEASE</version>
         </dependency>
 
-        <!--调用会员注册　引入会员服务-->
-        <dependency>
-            <groupId>cn.vazh</groupId>
-            <artifactId>elvis-shop-service-api-member</artifactId>
-            <version>1.0.0-RELEASE</version>
-        </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <!--此名称要和.m2/settings.xml中设置的ID一致 -->
+            <id>elvis-releases</id>
+            <name>admin</name>
+            <url>http://192.168.43.29:8081/repository/elvis-releases/</url>
+        </repository>
+    </repositories>
 
 </project>

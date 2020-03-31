@@ -8,10 +8,10 @@ eureka:
 wx:
   mp:
     configs:
-    -   appId: wx6b2544d3adaee8f7      #wx367878f04d76f138
-        secret: 36605849f3a9ccc10547ea8d324e4248 #3beb25c6cfe102e9fb144040bf255c9a
+    -   appId: wx367878f04d76f138      #wx6b2544d3adaee8f7      #wx367878f04d76f138
+        secret: 4bb736febb82030dedef14712f9571e1  #36605849f3a9ccc10547ea8d324e4248
         token: elvis
-        aesKey: EVBcdIOvgZFOxqv9qSYXM6Wn9GOH7XAX9YDhwYJYAnf
+        aesKey: 7w7ahbTznFg8gFsnH1Nx8FVriWYvhfEcSnsYJCUkHTd
 feign:
   httpclient:
     connection-timeout: 30000

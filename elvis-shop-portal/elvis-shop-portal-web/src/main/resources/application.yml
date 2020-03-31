@@ -19,4 +19,21 @@ eureka:
     service-url:
            defaultZone: http://localhost:8100/eureka
 server:
-  port: 8080
+  port: 8082
+
+redis:
+  hostname: 192.168.43.29
+  port: 6379
+  password: zk201314
+
+xxl-sso:
+  excluded:
+    paths:
+xxl:
+  sso:
+    server: http://xxlssoserver.com:8080/xxl-sso-server
+    logout:
+      path: /logout
+    redis:
+      address: redis://xxl-sso:zk201314@192.168.43.29:6379
+

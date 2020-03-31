@@ -14,6 +14,11 @@
     <modules>
         <module>elvis-shop-service-api-weixin</module>
         <module>elvis-shop-service-api-member</module>
+        <module>elvis-shop-service-api-goods</module>
+        <module>elvis-shop-service-api-pay</module>
+        <module>elvis-shop-service-api-integral</module>
+        <module>elvis-shop-service-api-auth</module>
+        <module>elvis-shop-service-api-spike</module>
     </modules>
 
     <dependencies>
@@ -41,7 +46,7 @@
         <repository>
             <!--此名称要和.m2/settings.xml中设置的ID一致 -->
             <id>elvis-releases</id>
-            <name>elvis</name>
+            <name>admin</name>
             <url>http://192.168.43.29:8081/repository/elvis-releases/</url>
         </repository>
     </repositories>
@@ -50,7 +55,7 @@
         <repository>
             <!--此名称要和.m2/settings.xml中设置的ID一致 -->
             <id>elvis-releases</id>
-            <name>elvis</name>
+            <name>admin</name>
             <url>http://192.168.43.29:8081/repository/elvis-releases/</url>
         </repository>
     </distributionManagement>
@@ -79,7 +84,6 @@
             </plugin>
         </plugins>
     </build>
-
 
 
 

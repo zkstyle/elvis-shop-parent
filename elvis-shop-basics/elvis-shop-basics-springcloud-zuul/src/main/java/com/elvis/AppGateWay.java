@@ -32,7 +32,7 @@ import java.util.List;
 @EnableEurekaClient
 @EnableZuulProxy
 @EnableSwagger2Doc
-@EnableApolloConfig
+//@EnableApolloConfig
 public class AppGateWay {
 
     //获取Config
@@ -102,7 +102,15 @@ public class AppGateWay {
             swaggerResource.setSwaggerVersion(version);
             return swaggerResource;
         }
+        // 微服务网关Swagger 如何集成阿波罗 实现动态添加微服务Swagger文档
 
+        /**
+         * 大体思路分析：<br>
+         * 1.将swaggerResource封装程json数组格式、<br>
+         * 2.使用原生代码方式获取配置文件 3.写一个监听，监听文件是否发生变化，发生变化重新加载值 递归算法
+         * 4.elvis.zuul.swagger.document=
+         *
+         */
 
     }
 }

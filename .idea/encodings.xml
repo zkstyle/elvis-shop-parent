@@ -4,20 +4,42 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-api-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-api-dto/elvis-shop-api-member-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-api-dto/elvis-shop-api-pay-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-api-dto/elvis-shop-api-product-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-api-dto/elvis-shop-api-weixin-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-basics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-basics/elvis-shop-basics-elk-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-basics/elvis-shop-basics-springcloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-basics/elvis-shop-basics-springcloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-basics/elvis-shop-basics-xxl-sso-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-common/elvis-shop-common-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-common/elvis-shop-common-web-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-job/elvis-shop-pay-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-pay-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-pay-plugin/elvis-shop-alipay-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-pay-plugin/elvis-shop-alipay-plugin/src/main/java/com/alipay/config/AlipayConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-pay-plugin/elvis-shop-unionpay-plugin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-portal/elvis-shop-portal-pay-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-portal/elvis-shop-portal-spike-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-portal/elvis-shop-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-service-api/elvis-shop-service-api-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-service-api/elvis-shop-service-api-goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-service-api/elvis-shop-service-api-integral" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-service-api/elvis-shop-service-api-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-service-api/elvis-shop-service-api-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-service-api/elvis-shop-service-api-spike" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-service-api/elvis-shop-service-api-weixin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-service-impl/elvis-shop-service-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-service-impl/elvis-shop-service-goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-service-impl/elvis-shop-service-integral" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-service-impl/elvis-shop-service-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-service-impl/elvis-shop-service-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elvis-shop-service-impl/elvis-shop-service-spike" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elvis-shop-service-impl/elvis-shop-service-weixin" charset="UTF-8" />
   </component>
 </project>
